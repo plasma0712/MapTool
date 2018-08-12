@@ -338,6 +338,8 @@
     <Compile Include="Assets\04 Script\08 CoreDataBase\GameUiDataBase.cs" />
     <Compile Include="Assets\04 Script\08 CoreDataBase\Singleton.cs" />
     <Compile Include="Assets\04 Script\MapTool\DropDownControl.cs" />
+    <Compile Include="Assets\04 Script\MapTool\MapBlockDataSave.cs" />
+    <Compile Include="Assets\04 Script\MapTool\XMLMapBlockSetting.cs" />
     <Compile Include="Assets\BulletController.cs" />
     <Compile Include="Assets\EnemyAI.cs" />
     <Compile Include="Assets\EnemyHpUI.cs" />

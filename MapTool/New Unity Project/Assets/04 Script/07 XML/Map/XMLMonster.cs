@@ -11,12 +11,17 @@ public class XMLMonster : Singleton<XMLMonster>
 
     string filePath = "./Assets/Resources/MonsterList.xml";
 
+    //public Sprite[] MapBlockSprites;
+
+
     private void Awake()
     {
         //CreateXml();
         LoadXml();
 
         MonsterSelectListManager.Instance.Init();
+        //MapBlockSprites = Resources.LoadAll<Sprite>("MapBlockSprite");
+
     }
 
     public void CreateXml() // 기본 틀을 만들기 위해서 제작한 함수
